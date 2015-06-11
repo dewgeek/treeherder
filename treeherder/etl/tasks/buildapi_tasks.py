@@ -12,15 +12,14 @@ from treeherder.etl.buildapi import (RunningJobsProcess,
                                      Builds4hJobsProcess)
 from treeherder.etl.pushlog import HgPushlogProcess
 
-# from pympler import tracker
+from pympler import tracker
 import logging
-import json
 
-# tr = tracker.SummaryTracker()
-# tr.print_diff()
-# tr.print_diff()
-# tr.print_diff()
-# tr.print_diff()
+tr = tracker.SummaryTracker()
+tr.print_diff()
+tr.print_diff()
+tr.print_diff()
+tr.print_diff()
 
 logger = logging.getLogger(__name__)
 
@@ -51,8 +50,8 @@ def fetch_buildapi_build4h():
     Builds4hJobsProcess().run()
     logger.warn("<><><> printing diff after")
 
-    # for line in tr.format_diff():
-    #     logger.warn("<> {}".format(line))
+    for line in tr.format_diff():
+        logger.warn("<> {}".format(line))
 
 
 @task(name='fetch-push-logs')
