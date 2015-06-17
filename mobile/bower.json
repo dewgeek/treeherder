@@ -1,0 +1,44 @@
+{
+  "name": "mytreeherder",
+  "version": "1.0.0",
+  "dependencies": {
+    "angular": "1.2.16",
+    "json3": "~3.3.1",
+    "es5-shim": "~3.1.0",
+    "bootstrap": "~3.2.0",
+    "angular-resource": "1.2.16",
+    "angular-cookies": "1.2.16",
+    "angular-sanitize": "1.2.16",
+    "angular-animate": "1.2.16",
+    "angular-touch": "1.2.16",
+    "angular-route": "1.2.16",
+    "angular-spinner": "~0.5.1",
+    "spin.js": "~2.0.1"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.2.16",
+    "angular-scenario": "1.2.16"
+  },
+  "appPath": "app",
+  "authors": [
+    "mdoglio <mauro.doglio@gmail.com>"
+  ],
+  "description": "A shrinked, mobile-first version of http://treeherder.mozilla.org",
+  "main": "app/index.html",
+  "keywords": [
+    "treeherder",
+    "ci",
+    "mozilla",
+    "push"
+  ],
+  "license": "MPL",
+  "homepage": "https://github.com/maurodoglio/mytreeherder",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

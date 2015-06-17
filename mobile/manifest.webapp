@@ -1,0 +1,21 @@
+{
+  "version": "0.1.0",
+  "name": "mytreeherder",
+  "description": "A shrinked, mobile-first  version of Treeherder",
+  "launch_path": "index.html",
+  "icons": {
+    "16": "/images/icons/icon16x16.png",
+    "48": "/images/icons/icon48x48.png",
+    "60": "/images/icons/icon60x60.png",
+    "128": "/images/icons/icon128x128.png"
+  },
+  "developer": {
+    "name": "Mauro Doglio",
+    "url": "https://github.com/maurodoglio"
+  },
+  "type": "privileged",
+  "permissions": {},
+  "installs_allowed_from": [
+    "*"
+  ]
+}
